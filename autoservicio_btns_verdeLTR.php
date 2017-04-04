@@ -11,16 +11,16 @@
   }
   $this->arr_buttons['bcons_inicio']['hint']             = $Nm_lang['lang_btns_frst_hint'];
   $this->arr_buttons['bcons_inicio']['type']             = 'button';
-  $this->arr_buttons['bcons_inicio']['value']            = '<span class = "glyphicon glyphicon-step-backward"></span>';
-  $this->arr_buttons['bcons_inicio']['display']          = 'only_text';
+  $this->arr_buttons['bcons_inicio']['value']            = $Nm_lang['lang_btns_frst_hint'];
+  $this->arr_buttons['bcons_inicio']['display']          = 'only_img';
   $this->arr_buttons['bcons_inicio']['display_position'] = 'text_right';
   $this->arr_buttons['bcons_inicio']['style'] = 'default';
   $this->arr_buttons['bcons_inicio']['image'] = 'scriptcase__NM__nm_scriptcase8_saphir_bcons_inicio.gif';
 
   $this->arr_buttons['bcons_retorna']['hint']             = $Nm_lang['lang_btns_prev_hint'];
   $this->arr_buttons['bcons_retorna']['type']             = 'button';
-  $this->arr_buttons['bcons_retorna']['value']            = '<span class = "glyphicon glyphicon-chevron-left"></span>';
-  $this->arr_buttons['bcons_retorna']['display']          = 'only_text';
+  $this->arr_buttons['bcons_retorna']['value']            = $Nm_lang['lang_btns_prev_hint'];
+  $this->arr_buttons['bcons_retorna']['display']          = 'only_img';
   $this->arr_buttons['bcons_retorna']['display_position'] = 'text_right';
   $this->arr_buttons['bcons_retorna']['style'] = 'default';
   $this->arr_buttons['bcons_retorna']['image'] = 'scriptcase__NM__nm_scriptcase8_saphir_bcons_retorna.gif';
