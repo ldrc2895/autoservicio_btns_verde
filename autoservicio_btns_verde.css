@@ -8,3 +8,5 @@
 .scLink_default:visited { text-decoration: underline; font-size: 12px; color: #0000AA;  }
 .scLink_default:active { text-decoration: underline; font-size: 12px; color: #0000AA;  }
 .scLink_default:hover { text-decoration: none; font-size: 12px; color: #0000AA;  }
+a[id*="sc_btgp_btn_group"] img {display:none}
+a[id*="sc_btgp_btn_group"]::after {content:"▼"}
